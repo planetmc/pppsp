@@ -49,7 +49,7 @@
             z-index: -1;
         }
         
-        /* Main Container */
+      
         .container {
             background: var(--card-bg);
             backdrop-filter: blur(10px);
@@ -62,7 +62,7 @@
             text-align: center;
         }
         
-        /* Header */
+   
         .header {
             margin-bottom: 30px;
         }
@@ -98,7 +98,7 @@
             font-size: 1rem;
         }
         
-        /* Donation Info */
+    
         .donation-info {
             background: rgba(0, 112, 186, 0.1);
             border-radius: 15px;
@@ -130,7 +130,7 @@
             font-size: 1.1rem;
         }
         
-        /* Important Notice */
+     
         .notice {
             background: rgba(255, 193, 7, 0.1);
             border: 1px solid rgba(255, 193, 7, 0.3);
@@ -155,7 +155,7 @@
             line-height: 1.4;
         }
         
-        /* Buttons Container */
+  
         .buttons-container {
             display: flex;
             flex-direction: column;
@@ -163,7 +163,7 @@
             margin: 25px 0;
         }
         
-        /* PayPal Button */
+ 
         .paypal-btn {
             display: inline-flex;
             align-items: center;
@@ -188,7 +188,7 @@
             background: linear-gradient(135deg, var(--paypal-light-blue), var(--paypal-blue));
         }
         
-        /* Discord Button */
+ 
         .discord-btn {
             display: inline-flex;
             align-items: center;
@@ -217,7 +217,7 @@
             font-size: 1.5rem;
         }
         
-        /* Security Badge */
+
         .security {
             display: flex;
             align-items: center;
@@ -232,7 +232,7 @@
             color: #00ff7f;
         }
         
-        /* Footer */
+ 
         .footer {
             margin-top: 30px;
             font-size: 0.8rem;
@@ -248,7 +248,7 @@
             text-decoration: underline;
         }
         
-        /* Responsive */
+  
         @media (max-width: 600px) {
             .container {
                 padding: 30px 20px;
@@ -274,7 +274,7 @@
             }
         }
         
-        /* Animation */
+    
         @keyframes pulse {
             0% { transform: scale(1); }
             50% { transform: scale(1.05); }
@@ -337,7 +337,7 @@
     </div>
 
     <script>
-        // Apri i link in nuova finestra
+  
         document.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -345,7 +345,7 @@
             });
         });
         
-        // Effetto hover per mobile
+
         document.querySelectorAll('.paypal-btn, .discord-btn').forEach(btn => {
             btn.addEventListener('touchstart', function() {
                 this.style.transform = 'translateY(-2px)';
